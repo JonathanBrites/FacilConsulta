@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans';
+}
+
+.container-fluid{
+    background-color: #FFE766;    
+    width: 100vw;
+    padding: 4rem;
+}
+
+.container{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3);  
+    padding-top: 25px; 
+    padding-left: 25px;
+}
+
+form input:hover{
+    border: 1px solid #483698;
+}
+
+form select:hover{
+    border: 1px solid #483698;
+}
+
+form h1{
+    color: #483698;
+    font-family: 'Comfortaa', 'Open Sans';
+    font-weight: 700;
+}
+
+form h4{
+    color: #282828;
+    font-family: 'Comfortaa', 'Open Sans';
+    font-weight: 400;
+}
+
+@keyframes loading {
+    from { width: 40% }
+    to { width: 40% }
+  }
+
+.progresso {    
+    color: #483698;
+    position: relative;
+    height: 5vh;
+    padding-right: 1vw;
+    border-radius: 5px;
+    
+}
+
+.progresso::after {
+    animation: loading 999s ;
+    background: #483698;
+    content: '';
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.progresso p{
+    float: right;
+    color: #483698;
+    padding: 4px;
+    font-weight: 700;
+    font-family: 'Comfortaa', 'Open Sans';
+}
+
+form button{
+    margin-top: 2rem;    
+    height: 5vh;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #483698;
+    background-color: #483698;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+form button a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', 'openSans';
+    font-size: 16px;
+    font-family: 'Comfortaa', 'Open Sans';
+}
+
+form button a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.col.pagina{
+    justify-content:center;
+    align-self:center;
+
+}
+
+.form-check{
+    background-color:#f9f9f9 ;
+    height: 40px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);  
+    padding-top:10px; 
+    
+}
+
+.form-check-input,
+.form-check-label{
+    padding-left: 30%;
+}
+
+.input[type=checkbox], input[type=radio]{
+    margin-left:10%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .col.pagina{
+        display: none;
+    }
+
+    form h1{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    form h4{
+        font-size: 16px;
+        font-weight: 700;
+    }
+  }

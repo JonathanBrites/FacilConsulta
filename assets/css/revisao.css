@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans';
+}
+
+.container-fluid{
+    background-color: #FFE766;    
+    width: 100vw;
+    padding: 4rem;
+}
+
+.container{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3);  
+    padding-top: 25px; 
+    padding:40px;
+}
+
+label{
+    font-weight: 700;
+}
+
+form input:hover{
+    border: 1px solid #483698;
+}
+
+form select:hover{
+    border: 1px solid #483698;
+}
+
+form h1{
+    color: #483698;
+    font-family: 'Comfortaa', 'Open Sans';
+    font-weight: 700;
+}
+
+form h4{
+    color: #282828;
+    font-family: 'Comfortaa', 'Open Sans';
+    font-weight: 700;
+}
+
+form button{
+    margin-top: 2rem;    
+    height: 5vh;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #FFE766;
+    background-color: #FFE766;    
+    margin-bottom: 25px;
+}
+
+form button a{
+    text-decoration: none;
+    color: #282828;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', 'openSans';
+    font-size: 16px;
+    font-weight: 700;
+   
+}
+
+form button a:hover{
+    color: #282828;
+    text-decoration: none;
+}
+
+.editarCadastro{
+    margin-top: 2rem;    
+    height: 5vh;
+    width: 100%;
+    border-radius: 10px;
+    border: #FFFFFF;
+    background-color: #FFFFFF;    
+    margin-bottom: 25px;    
+}
+.editarCadastro a{
+    color: #483698;
+    text-transform: none;
+    font-weight: 700;
+    font-family: 'Comfortaa', 'openSans';
+    
+}
+
+.col.pagina{
+    justify-content:center;
+    align-self:center;
+
+}
+
+.form-check{
+    background-color:#f9f9f9 ;
+    height: 40px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.3);  
+    padding-top:10px; 
+    font-weight: 700;
+    
+}
+
+.form-check-input,
+.form-check-label{
+    padding-left: 30%;
+    
+}
+
+.form-check.cartao{    
+    height: 35vh;
+    padding-top:15px;
+}
+
+.input[type=checkbox], input[type=checkbox]{
+    margin-left:10%;    
+}
+
+.input[type=radio], input[type=radio]{
+    margin-left:10%;    
+}
+
+.label.form-check-label{
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    @keyframes loading {
+        from { width: 70% }
+        to { width: 70% }
+      }
+
+    .col.pagina{
+        display: none;
+    }
+
+    form h1{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    form h4{
+        font-size: 16px;
+        font-weight: 700;
+    }
+  }

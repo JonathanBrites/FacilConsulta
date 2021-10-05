@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans';
+}
+
+.container-fluid{
+    background-color: #FFE766;    
+    width: 100vw;
+    height: 100vh;
+    padding: 4rem;
+}
+
+.container{
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 80vh;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3);  
+    padding-top: 25px; 
+    padding:40px;
+}
+
+.img-fluid{
+    margin-top: 1rem;    
+    background-color: #483698;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.col h1{
+    margin-top: 5rem;
+    font-family: 'Comfortaa', 'Open Sans';
+    color: #483698;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    *{
+        font-size: 12px;
+    
+    }
+    .col h1{
+        margin-top: 2rem;
+    }
+  }
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">  
+            <div class="row" >
+                <div class="col-sm">
+                    <form>
+                        <h1>Sobre o Profissional</h1>
+                        <h4>Dados do profissional</h4>
+                        <div class="form-group nome">
+                            <label for="nome">Nome completo*</label>
+                            <input id="nome" type="text" name="nome" class="form-control form-control-sm" placeholder="Digite o nome completo" required>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="form-group cpf">
+                            <label for="cpf">CPF*</label>
+                            <input id="cpf" type="number" name="cpf" class="form-control form-control-sm" placeholder="Digite um CPF" required>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="form-group cel">
+                            <label for="cel">Número de celular*</label>
+                            <input id="cel" type="tel" name="cel" class="form-control form-control-sm" placeholder="(00) 0 0000-0000" required>
+                        </div>             
+                        <div class="w-100"></div>
+                        <div class="form-group cep">
+                            <label for="states">Estado*</label>
+                            <br/>
+                            <select id="states" class="form-control">
+                                <option value=""></option>
+                                <option value="pr">Paraná</option>
+                                <option value="rs">Rio Grande do Sul</option>
+                                <option value="sc">Santa Catarina</option>
+                            </select>
+                            <div class="form-group cidade" id="wrapper-cities">
+                                <label for="cities">Cidades*</label>
+                                <br/>
+                                <select id="cities" class="form-control" ></select>
+                            </div>
+                        </div>            
+                        <div class="w-100"></div>
+                        <div class="progresso">
+                            <p>1 de 2</p>
+                        </div> 
+                        <div class="w-100"></div>
+                        <button>
+                            <a href="detalhes.html">Proxímo</a>    
+                        </button>         
+                    </form>
+                </div>
+                <div class="col pagina">
+                    <img src="assets/images/desktop-pagina-1.png" class="img-fluid">
+                </div>
+            </div>            
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

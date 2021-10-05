@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/detalhes.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">        
+        <div class="container">  
+            <div class="row" >
+                <div class="col-sm">
+                    <form>
+                        <h1>Sobre o atendimento</h1>
+                        <h4>Detalhes do atendimento</h4>
+                        <div class="form-group especialidade">
+                            <label for="especialidade">Especialidade principal*</label>
+                            <br/>
+                            <select id="especialidade" class="form-control">
+                                <option value=""></option>
+                                <option value="">Cardiologia</option>
+                                <option value="">Dermatologia</option>
+                                <option value="">Neurologia</option>
+                                <option value="">Oftalmologia</option>
+                                <option value="">Psiquiatria</option>
+                                <option value="">Urologia</option>
+                            </select>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="form-group valor">
+                            <label for="valor">Informe o preço da consulta*</label>
+                            <input id="valor" type="number" name="valorconsulta" class="form-control form-control-sm" placeholder="Valor" required>
+                        </div>
+                        <div class="w-100"></div>
+                        <label>Formas de pagamento da consulta*</label>
+                        <div class="w-100"></div>
+                        <div class="form-check">                            
+                          <input class="form-check-input" type="checkbox" name="dinheiro" id="dinheiro" >
+                          <label class="form-check-label" for="dinheiro">
+                            Em dinheiro
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="pix" id="pix" >
+                          <label class="form-check-label" for="pix">
+                            Pix
+                          </label>
+                        </div>
+                        <div class="form-check cartao">
+                          <input class="form-check-input" type="checkbox" name="cartao" id="cartao">
+                          <label class="form-check-label" for="cartao">
+                            Cartão de crédito
+                          </label>
+                          <br>
+                          <br>
+                          <label class="form-check-label">
+                            Parcelamento em
+                          </label>
+                          <br/>
+                          <br/>
+                          <input class="form-check-input" type="radio" name="parcelamento" id="duas">
+                          <label class="form-check-label" for="duas">
+                            1x, sem juros                        
+                          </label>
+                          <br>
+                          <input class="form-check-input" type="radio" name="parcelamento" id="duas">
+                          <label class="form-check-label" for="duas">
+                            2x, sem juros                        
+                          </label>
+                          <br>
+                          <input class="form-check-input" type="radio" name="parcelamento" id="tres">
+                          <label class="form-check-label" for="tres">
+                            3x, sem juros                        
+                          </label>
+                        </div> 
+                        <div class="w-100"></div>
+                        <div class="progresso">
+                            <p>2 de 2</p>
+                        </div> 
+                        <div class="w-100"></div>
+                        <button>
+                            <a href="revisao.html">Proxímo</a>    
+                        </button>         
+                    </form>
+                </div>
+                <div class="col pagina">
+                    <img src="assets/images/desktop-pagina-2.png" class="img-fluid">
+                </div>
+            </div>            
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
