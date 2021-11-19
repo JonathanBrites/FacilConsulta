@@ -3,11 +3,5 @@ Contato: (21)96579-3388
 
 Para executar o projeto, basta realizar o download de todo o projeto e clicar em dados.html
 
-Tive dificuldades para definir o tamanho dos inputs, ainda estou desenvolvendo meus conhecimentos em bootstrap e também para a página de revisão do cadastro para aparecer os dados que foram inseridos na página 1 e 2.
 
-Também não consegui deixar aparecer o input radio da escolha de parcelamentos, somente após clicar na opção de cartão de crédito, então já deixei habilitada a opção.
-
-Não utilizei nada de VueJS.
-
-O JavaScript foi extraído da internet e adaptado para o projeto.
 
